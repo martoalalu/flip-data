@@ -24,7 +24,7 @@ Themify Icons
 html.fh5co-overflow, body.fh5co-overflow {
   overflow-x: auto;
 }
-html.fh5co-overflow #fh5co-header-section, html.fh5co-overflow #fh5co-main, html.fh5co-overflow #fh5co-hero, html.fh5co-overflow #fh5co-mobile-menu, html.fh5co-overflow #fh5co-footer, body.fh5co-overflow #fh5co-header-section, body.fh5co-overflow #fh5co-main, body.fh5co-overflow #fh5co-hero, body.fh5co-overflow #fh5co-mobile-menu, body.fh5co-overflow #fh5co-footer {
+html.fh5co-overflow #fh5co-header-section, html.fh5co-overflow #fh5co-main, html.fh5co-overflow #fh5co-hero, html.fh5co-overflow , html.fh5co-overflow #fh5co-footer, body.fh5co-overflow #fh5co-header-section, body.fh5co-overflow #fh5co-main, body.fh5co-overflow #fh5co-hero, body.fh5co-overflow , body.fh5co-overflow #fh5co-footer {
   -webkit-transition: all 0.3s ease;
   -moz-transition: all 0.3s ease;
   -ms-transition: all 0.3s ease;
@@ -456,23 +456,7 @@ textarea {
 }
 
 /* Mobile Menu */
-#fh5co-mobile-menu-btn {
-  padding: 0 10px;
-  z-index: 1001;
-  position: absolute;
-  top: 0;
-  left: 0;
-  background: #28bbf8;
-  height: 44px;
-  display: table;
-}
-#fh5co-mobile-menu-btn i {
-  line-height: 25px;
-  display: table-cell;
-  vertical-align: middle;
-  font-size: 22px;
-  color: #fff;
-}
+
 
 #fh5co-mobile-menu {
   -moz-transform: translateX(-275px);
